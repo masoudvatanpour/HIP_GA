@@ -464,7 +464,7 @@ public class Main implements Runnable {
     	//cost # 2:
 //    	cost = Math.pow(cost, 1/10);
 //    	int areaCost = 50//percent
-        cost = cost - 0.5*dna.areaCost() ;//- Math.pow(dna.length(),1)/global.maxNumberOfSensors;
+        cost = cost - 0.01*dna.areaCost() ;//- Math.pow(dna.length(),1)/global.maxNumberOfSensors;
         
         //cost # 3
 //    	cost -= 0.5*dna.areaCost();

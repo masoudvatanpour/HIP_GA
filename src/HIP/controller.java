@@ -54,7 +54,7 @@ public class controller {
 		public void addTuples(){
 			tuples = new ArrayList<tuple>();		
 			// . . . . . . . . . m  n   u   l   p_c  p_m  filename							
-			tuples.add(new tuple(500, 10, 500, 100, 0.4, 0.5, global.filename));
+			tuples.add(new tuple(5, 10, 5, 1000, 0.4, 0.001, global.filename));
 		}
 //		public void drive(){
 //			try {

@@ -1,0 +1,2 @@
+javac -d bin -sourcepath src src/HIP/myMain.java
+java -cp bin: HIP.myMain
